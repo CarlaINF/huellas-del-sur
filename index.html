@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Huellas del Sur | Clínica Veterinaria</title>
+<style>
+:root{--blue:#0c4f70;--teal:#11a9ad;--ink:#163044;--muted:#5e7180;--bg:#f5fafb;--card:#fff;--line:#dbe7ea}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.5}
+header{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid var(--line)}
+.nav{max-width:1180px;margin:auto;padding:12px 20px;display:flex;align-items:center;gap:24px;justify-content:space-between;flex-wrap:wrap}
+.brand{font-weight:800;font-size:22px;color:var(--blue)}.brand small{display:block;font-size:11px;letter-spacing:1.5px}
+nav a{color:var(--ink);text-decoration:none;font-size:14px;margin:0 8px}.btn{display:inline-block;background:var(--teal);color:white!important;padding:11px 17px;border-radius:9px;text-decoration:none;font-weight:700}
+.hero{background:linear-gradient(120deg,#e8f7f6,#f7fbfc);padding:68px 20px}.wrap{max-width:1180px;margin:auto}.hero-grid{display:grid;grid-template-columns:1.4fr .7fr;gap:32px;align-items:center}
+h1{font-size:48px;line-height:1.05;margin:0 0 18px;color:var(--blue)}h2{font-size:30px;color:var(--blue);margin:0 0 12px}h3{color:var(--blue)}
+.lead{font-size:19px;max-width:700px}.info{background:white;border:1px solid var(--line);border-radius:16px;padding:24px}
+section{padding:58px 20px}.soft{background:var(--bg)}
+.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:26px}.card{background:white;border:1px solid var(--line);border-radius:14px;padding:20px}.icon{font-size:30px}
+.two{display:grid;grid-template-columns:1.35fr .65fr;gap:30px}.stats{display:grid;grid-template-columns:1fr 1fr;gap:12px}.stat{background:white;border:1px solid var(--line);border-radius:12px;padding:18px}.stat b{font-size:28px;color:var(--teal)}
+.team{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.person{border:1px solid var(--line);border-radius:14px;padding:18px;background:#fff}.avatar{font-size:38px}
+details{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px;margin:10px 0}summary{cursor:pointer;font-weight:700;color:var(--blue)}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:25px}.notice{background:#fff8e8;border:1px solid #ecd89e;border-radius:12px;padding:16px;margin-top:18px}
+footer{background:var(--blue);color:white;padding:34px 20px}footer .wrap{display:flex;justify-content:space-between;gap:25px;flex-wrap:wrap}
+@media(max-width:850px){.hero-grid,.two,.contact{grid-template-columns:1fr}.cards{grid-template-columns:1fr 1fr}.team{grid-template-columns:1fr 1fr}h1{font-size:38px}}
+@media(max-width:520px){.cards,.team,.stats{grid-template-columns:1fr}nav{display:flex;overflow:auto;width:100%}h1{font-size:32px}}
+</style>
+</head>
+<body>
+<header>
+ <div class="nav">
+  <div class="brand">🐾 Huellas del Sur<small>CLÍNICA VETERINARIA</small></div>
+  <nav>
+   <a href="#inicio">Inicio</a><a href="#nosotros">Nosotros</a><a href="#servicios">Servicios</a>
+   <a href="#equipo">Nuestro equipo</a><a href="#preguntas">Preguntas frecuentes</a><a href="#contacto">Contacto</a>
+  </nav>
+ </div>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+ <div class="wrap hero-grid">
+  <div><h1>Cuidamos a quienes forman parte de tu familia</h1>
+   <p class="lead">Atención veterinaria integral, con un equipo comprometido con el bienestar de las mascotas y sus familias.</p>
+   <p><a class="btn" href="#servicios">Conoce nuestros servicios</a></p>
+  </div>
+  <aside class="info"><h3>Horario de atención</h3><p><b>Lunes a viernes</b><br>08:30–19:00 hrs.</p><p><b>Sábados</b><br>09:00–14:00 hrs.</p><hr><p>☎ +56 65 234 5678<br>✉ contacto@huellasdelsur.cl<br>📍 Puerto Montt, Región de Los Lagos</p></aside>
+ </div>
+</section>
+
+<section id="servicios"><div class="wrap"><h2>Nuestros servicios</h2><p>Atención para distintas etapas de la vida de tu mascota.</p>
+<div class="cards">
+ <article class="card"><div class="icon">🩺</div><h3>Consulta veterinaria</h3><p>Atención general y controles de salud para perros y gatos.</p></article>
+ <article class="card"><div class="icon">💉</div><h3>Vacunación</h3><p>Aplicación de vacunas y seguimiento de próximas dosis.</p></article>
+ <article class="card"><div class="icon">🐾</div><h3>Controles preventivos</h3><p>Seguimiento periódico para favorecer una vida saludable.</p></article>
+ <article class="card"><div class="icon">❤️</div><h3>Procedimientos médicos</h3><p>Curaciones, exámenes y procedimientos ambulatorios.</p></article>
+ <article class="card"><div class="icon">🏥</div><h3>Hospitalización</h3><p>Cuidado y seguimiento de pacientes que requieren observación.</p></article>
+</div></div></section>
+
+<section class="soft" id="nosotros"><div class="wrap two">
+ <div><h2>Sobre nosotros</h2>
+ <p>Clínica Veterinaria Huellas del Sur nace en 2018 con el propósito de brindar una atención veterinaria cercana y comprometida con el bienestar de las mascotas y sus familias.</p>
+ <p>Comenzamos como una pequeña consulta veterinaria. Con el paso de los años aumentó el número de pacientes y ampliamos nuestros servicios, lo que también generó nuevos desafíos para nuestro equipo.</p>
+ <p>Actualmente parte de la información de nuestros pacientes se mantiene en fichas clínicas y distintas planillas electrónicas utilizadas por el personal. Debido al crecimiento experimentado, estamos trabajando para modernizar nuestros procesos internos y mejorar la organización de la información.</p></div>
+ <div class="stats"><div class="stat"><b>+3.500</b><br>mascotas atendidas</div><div class="stat"><b>250</b><br>atenciones mensuales aprox.</div><div class="stat"><b>4</b><br>médicos veterinarios</div><div class="stat"><b>2</b><br>asistentes de apoyo</div></div>
+</div></section>
+
+<section id="equipo"><div class="wrap"><h2>Nuestro equipo</h2><p>Profesionales dedicados al cuidado de nuestros pacientes.</p>
+<div class="team">
+ <article class="person"><div class="avatar">👩🏻‍⚕️</div><h3>Dra. Daniela Muñoz</h3><p>Médico Veterinario · Dirección clínica</p></article>
+ <article class="person"><div class="avatar">👨🏻‍⚕️</div><h3>Dr. Tomás Rojas</h3><p>Médico Veterinario</p></article>
+ <article class="person"><div class="avatar">👩🏻‍⚕️</div><h3>Dra. Camila Torres</h3><p>Médico Veterinario</p></article>
+ <article class="person"><div class="avatar">👨🏻‍⚕️</div><h3>Dr. Felipe Aravena</h3><p>Médico Veterinario</p></article>
+</div></div></section>
+
+<section class="soft" id="preguntas"><div class="wrap"><h2>Preguntas frecuentes</h2>
+<details><summary>¿Cómo solicito una hora?</summary><p>Actualmente las horas se coordinan telefónicamente o directamente en recepción. Nuestro personal revisa la disponibilidad de los veterinarios y registra la reserva.</p></details>
+<details><summary>¿Puedo reservar por Internet?</summary><p>Por el momento nuestras reservas se realizan telefónicamente o en recepción.</p></details>
+<details><summary>¿Cómo sé cuándo corresponde la próxima vacuna?</summary><p>Nuestro personal revisa la ficha clínica de la mascota para verificar la última aplicación y orientar al propietario sobre la próxima dosis.</p></details>
+<details><summary>¿Qué pasa si pierdo el carnet de vacunas?</summary><p>Nuestro personal revisará los antecedentes disponibles en la ficha de su mascota.</p></details>
+<details><summary>¿Puedo solicitar el historial de mi mascota?</summary><p>Sí. Debe solicitarlo en recepción para que nuestro equipo revise los registros disponibles antes de entregar la información.</p></details>
+</div></section>
+
+<section id="contacto"><div class="wrap contact">
+<div><h2>Contacto</h2><p><b>Clínica Veterinaria Huellas del Sur</b></p><p>☎ +56 65 234 5678<br>✉ contacto@huellasdelsur.cl<br>📍 Puerto Montt, Región de Los Lagos</p></div>
+<div class="info"><h3>¿Necesitas una hora?</h3><p>Comunícate con recepción. Nuestro personal revisará la disponibilidad de los profesionales y coordinará tu atención.</p><p><b>Atención telefónica:</b><br>Lunes a viernes 08:30–19:00 hrs.<br>Sábados 09:00–14:00 hrs.</p></div>
+</div>
+<div class="notice"><b>Nota académica:</b> Huellas del Sur es una organización ficticia creada exclusivamente para el desarrollo de una actividad de Ingeniería de Software.</div>
+</section>
+</main>
+<footer><div class="wrap"><div><b>🐾 Huellas del Sur</b><br><small>Clínica Veterinaria</small></div><div>Proyecto académico · Ingeniería de Software</div></div></footer>
+</body></html>
